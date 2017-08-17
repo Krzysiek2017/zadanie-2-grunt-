@@ -2,7 +2,7 @@
 
   // Project configuration.
   grunt.initConfig({
-  sass: {
+    sass: {
       options: {
         sourceMap: true
       },
