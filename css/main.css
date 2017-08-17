@@ -1,5 +1,3 @@
-﻿
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 .position, .layer, .team-layer, .about-layer {
   position: absolute;
   opacity: 0;
@@ -20,7 +18,7 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 .row:before,
 .row:after {
@@ -35,7 +33,7 @@ body {
   margin: 0 auto; }
 
 header {
-  background-color: aqua;
+  background-color: #313234;
   height: 50px;
   background-color: rgba(0, 0, 0, 0.5); }
   header > nav ul {
@@ -74,7 +72,7 @@ header {
     color: #fff;
     text-align: left; }
 
-/*GRID */
+/*GRID*/
 [class*='col-'] {
   float: left;
   min-height: 1px;
@@ -169,15 +167,17 @@ section.container {
 h2 {
   text-transform: uppercase; }
 
-/*GALLERY */
+/*GALLERY*/
 .gallery div {
   margin: 0 auto;
   padding: 0; }
+
 .gallery img {
   width: 100%;
   height: 200px;
   display: block;
   object-fit: cover; }
+
 .gallery .photo {
   position: relative; }
   .gallery .photo:hover .layer {
@@ -194,7 +194,7 @@ h2 {
   display: inline-block;
   cursor: pointer; }
 
-/*TEAM */
+/*TEAM*/
 .team img {
   border-radius: 50%;
   display: block;
@@ -209,6 +209,7 @@ h2 {
   .team .team-photo:hover .team-layer {
     background: rgba(0, 0, 0, 0.5);
     opacity: 1; }
+
 .team h3 {
   text-align: center;
   font-size: 30px;
@@ -217,15 +218,16 @@ h2 {
 h5 {
   color: #fff; }
 
-/*NUMBERS */
+/*NUMBERS*/
 .numbers h1 {
   font-size: 50px; }
+
 .numbers p {
   color: lightblue;
   font-size: 25px;
   margin-top: 0; }
 
-/*ABOUT */
+/*ABOUT*/
 .about {
   width: 100%;
   height: 77vh;
@@ -262,7 +264,7 @@ h5 {
   color: #fff;
   padding: 40px 15px; }
 
-/*FOOTER */
+/*FOOTER*/
 footer {
   background-color: lightblue; }
 
@@ -280,7 +282,7 @@ footer h3 {
   font-size: 20px;
   padding: 15px 0; }
 
-@media(min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .team img {
     width: 200px;
     height: 200px;
@@ -292,47 +294,35 @@ footer h3 {
   .team .team-photo:hover .team-layer {
     background: rgba(0, 0, 0, 0.5);
     opacity: 0; }
-
   .team-layer {
     width: 200px;
     height: 200px; } }
-@media(min-width: 768px) and (max-width: 991px) {
+
+@media (min-width: 768px) and (max-width: 991px) {
   .col-m-1 {
     width: 8.33%; }
-
   .col-m-2 {
     width: 16.66%; }
-
   .col-m-3 {
     width: 25%; }
-
   .col-m-4 {
     width: 33.33%; }
-
   .col-m-5 {
     width: 41.66%; }
-
   .col-m-6 {
     width: 50%; }
-
   .col-m-7 {
     width: 58.33%; }
-
   .col-m-8 {
     width: 66.66%; }
-
   .col-m-9 {
     width: 75%; }
-
   .col-m-10 {
     width: 83.33%; }
-
   .col-m-11 {
     width: 91.66%; }
-
   .col-m-12 {
     width: 100%; }
-
   header {
     height: auto;
     text-align: center; }
@@ -340,82 +330,63 @@ footer h3 {
       float: none; }
       header > nav ul > li {
         display: block; }
-
   .hero {
     max-width: 100%;
     max-height: 100vh; }
-
   .gallery {
     padding: 0 30px; }
     .gallery img {
       width: 100%;
       height: auto; }
-
   .layer {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5); }
-
   .team img {
     margin: auto; }
   .team .team-photo:hover .team-layer {
     background: rgba(0, 0, 0, 0.5);
     opacity: 0; }
-
   .about {
     width: 100%;
     height: auto;
     padding: 50px 50px 0 50px; }
-
   .about-gallery {
     top: 0; }
     .about-gallery img {
       max-width: 100%;
       height: auto;
       display: block; }
-
   .text {
     top: 0; }
-
   .about-layer {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5); } }
+
 @media (max-width: 767px) {
   .col-s-1 {
     width: 8.33%; }
-
   .col-s-2 {
     width: 16.66%; }
-
   .col-s-3 {
     width: 25%; }
-
   .col-s-4 {
     width: 33.33%; }
-
   .col-s-5 {
     width: 41.66%; }
-
   .col-s-6 {
     width: 50%; }
-
   .col-s-7 {
     width: 58.33%; }
-
   .col-s-8 {
     width: 66.66%; }
-
   .col-s-9 {
     width: 75%; }
-
   .col-s-10 {
     width: 83.33%; }
-
   .col-s-11 {
     width: 91.66%; }
-
   .col-s-12 {
     width: 100%; }
-
   header {
     height: auto;
     text-align: center; }
@@ -423,45 +394,38 @@ footer h3 {
       float: none; }
       header > nav ul li {
         display: block; }
-
   .hero {
     max-width: 100%;
     max-height: 100vh; }
-
   .slogan h1 {
     font-size: 16px; }
-
   .gallery {
     padding: 0 30px; }
     .gallery img {
       max-width: 100%;
       height: auto; }
-
   .layer {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5); }
-
   .team img {
     margin: auto; }
   .team .team-photo:hover .team-layer {
     background: rgba(0, 0, 0, 0.5);
     opacity: 0; }
-
   .about {
     max-width: 100%;
     height: auto;
     padding: 50px 50px 0 50px; }
-
   .about-gallery {
     top: 0; }
     .about-gallery img {
       max-width: 100%;
       height: auto;
       display: block; }
-
   .text {
     top: 0; }
-
   .about-layer {
     opacity: 1;
     background: rgba(0, 0, 0, 0.5); } }
+
+/*# sourceMappingURL=main.css.map */
